@@ -1,4 +1,4 @@
-package java.creational;
+package java_gof.creational;
 
 public abstract class MazeBuilder {
 	// Builder > Participant > Builder

@@ -1,4 +1,4 @@
-package java.creational;
+package java_gof.creational;
 
 public class BuilderClient {
 	
@@ -6,6 +6,7 @@ public class BuilderClient {
 
 		Maze maze;
 		MazeGame maze_game = new MazeGame();
+		
 		StandardMazeBuilder standard_maze_builder = new StandardMazeBuilder();
 		maze_game.createMaze(standard_maze_builder);
 		maze = standard_maze_builder.getMaze();

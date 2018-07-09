@@ -1,4 +1,4 @@
-package java.creational;
+package java_gof.creational;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -28,6 +28,7 @@ public class Maze {
 	}
 
 	public void showMapSites() {
+		System.out.println();
 		Iterator<Entry<Integer, Room>> iterator = this.rooms.entrySet().iterator();
 		while (iterator.hasNext()) {
 			iterator.next().getValue().ShowMapSite();

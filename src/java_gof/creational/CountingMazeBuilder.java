@@ -1,4 +1,4 @@
-package java.creational;
+package java_gof.creational;
 
 public class CountingMazeBuilder extends MazeBuilder {
 	// Participant : ConcreteBuilder
